@@ -3,11 +3,10 @@ Built a simple language model that predicts the next word in a sentence based on
 
 # Problem Statement
 1. Data collection and preprocessing:
-(a) Collect a dataset of text. You can use the text corpora available in the nltk library,
+  - Collect a dataset of text. You can use the text corpora available in the nltk library,
 such as reuters or gutenberg.
-(b) Clean and preprocess the data (e.g., remove special characters, convert to lower-
-case).
-(c) Tokenize the text into words.
+  - Clean and preprocess the data (e.g., remove special characters, convert to lower-case)
+  - Tokenize the text into words.
 2. Model implementation:
 (a) Create n-grams from the tokenized text.
 (b) Calculate the frequency of each n-gram in the dataset.
